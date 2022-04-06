@@ -1,0 +1,4 @@
+Both tasks take input of an hack assembly program file, reads it, generates the machine code and save the machine code with .hack extension. The input file is being simplified(like removing comments and assigning the desired values to labels and varibles) in the process. Errors are NOT handled and the input files are considered to be error free and assumed to be in the same directory as of the tasks. The tasks have been tested on multiple programs but here on two test cases are included along with their output files. It works perfectly fine on all test cases. Please note again that the testcases input files are being simplied in the process of generating output
+I have also run the .cpp tasks on ubuntu and online, it works fine on both. 
+I have used static array to hold A and C instructions and dynamic arrays to hold lables and variables.
+ 
