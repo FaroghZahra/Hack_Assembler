@@ -4,3 +4,9 @@ Assembler for hack language, using very basic programming concepts like static a
 In the second part a class is made having two data members, symbols to store names of lables and variables and address to store there adresses. in the funtion predefined, a temp file is created and on encountering a predefined symbol it replaces it with it's value. in the function lables file is being read again and on encountering a label it stores it value in the address aarray and it's name in the symbol array. in the function label check, if a label is used it replaces it's name with the value stored in address array. Then in Variable function works almost same as label, it just checks if the string after @ is a number or not, if it is a number store it, else ignore it. The conversion is done in the same way as in part 1.
 
 Program is being tested on multiple asm programs including "PONG" and it works fine. The goal was to create it in the simplest way possible so anyone even with basic programming concepts can understand it.
+
+#How to run
+TO run the code do 
+->g++ Task1.cpp
+then
+->./a.out
